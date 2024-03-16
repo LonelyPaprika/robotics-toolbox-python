@@ -56,10 +56,5 @@ jobs:
           # unpacks default artifact into dist/
           name: artifact
           path: dist
-
-      - uses: pypa/gh-action-pypi-publish@v1.5.0
-        with:
-          user: __token__
-          password: ${{ secrets.PYPI_PASSWORD }}
           
           
